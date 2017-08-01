@@ -1,7 +1,15 @@
 body{
-  background: url(resources/tree.jpg) no-repeat center center fixed;
+  background: url(resources/treeblur.jpg) no-repeat center center fixed;
   -webkit-background-size: cover; /* For WebKit*/
   -moz-background-size: cover;    /* Mozilla*/
   -o-background-size: cover;      /* Opera*/
   background-size: cover;
+}
+
+#name{
+  font-family: 'Khula', sans-serif;
+  color: white;
+  margin: 0 auto;
+  font-size: 50px;
+  width: 100%;
 }
