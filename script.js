@@ -18,4 +18,5 @@ function goForward(){
   }
   document.body.style.backgroundImage = "url('resources/" +pictureNames[index] + "')";
   document.body.style.color = fontColors[index];
+
 }
