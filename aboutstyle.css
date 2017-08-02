@@ -3,7 +3,6 @@ body{
         background-color: #e8f1f2;
         color: #25283d;
         font-family: 'Source Sans Pro', sans-serif;
-        width:30%;
 }
 
 /* The navigation bar */
@@ -27,3 +26,20 @@ body{
         color:#e8f1f2;
         text-decoration: none;
         }
+
+#bios{
+  width:40%;
+  margin: 50px auto;
+}
+
+#groupPicture{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+h2,  h1{
+  text-align: center;
+}
