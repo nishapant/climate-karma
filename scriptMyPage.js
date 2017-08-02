@@ -14,6 +14,9 @@ class MyTask{
     alert(this.pointValue);
   }
 
+  getPoints(){
+    return this.pointValue;
+  }
 }
 
 taskArray.push(new MyTask("Bring a reusable bottle", 0));
@@ -40,4 +43,6 @@ function addPoints(pointVal, indexNum){
 
   taskArray[indexNum].addPointValue(pointVal);
   alert(totalpoints);
+  document.getElementById("p0").innerHTML="Your Points: " + taskArray[indexNum].getPoints().toString();
+  alert("hello");
 }
