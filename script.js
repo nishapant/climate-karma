@@ -1,6 +1,21 @@
-
-var pictureNames= ["fall.jpg", "spring.jpg",  "treeblur.jpg", "winter.jpg"];
+var pictureNames= ["treeblur.jpg", "fall.jpg", "winter.jpg", "spring.jpg"];
+var fontColors = ["white", "white", "black", "#303030"];
+var index = 0;
 
 function goBack(){
-  alert("hello");
+  index--;
+  if(index == -1){
+    index = 3;
+  }
+  document.body.style.backgroundImage = "url('resources/" +pictureNames[index] + "')";
+  document.body.style.color = fontColors[index];
+}
+
+function goForward(){
+  index++;
+  if(index == 4){
+    index=0;
+  }
+  document.body.style.backgroundImage = "url('resources/" +pictureNames[index] + "')";
+  document.body.style.color = fontColors[index];
 }

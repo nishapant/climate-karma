@@ -4,35 +4,51 @@ body{
   -moz-background-size: cover;    /* Mozilla*/
   -o-background-size: cover;      /* Opera*/
   background-size: cover;
+  color: white;
 }
 
 #name{
-  font-family: 'Khula', sans-serif;
-  color: white;
-  margin: 0 auto;
+  font-family: 'Source Sans Pro', sans-serif;
+
+  margin-left: 24%;
+  margin-top: 20%;
   font-size: 100px;
   width: 100%;
-  margin-top: 20%;
-  margin-left: 27%;
+
 }
 
 /* The navigation bar */
   #navbar {
         overflow: hidden;
-        background-color: #748b75;
+        /*background-color: rgba(255, 255, 255, 0.6);*/
         position: fixed; /* Set the navbar to fixed position */
         top: 0; /* Position the navbar at the top of the page */
         width: 100%; /* Full width */
-        }
+        padding-top: 20px;
+        padding-bottom: 20px;
+        text-align: center;
+}
 
 /* Links inside the navbar */
   #navbar a {
         float: left;
         display: block;
-        color: #f5fbef;
         text-align: center;
-        font-family: "Arial";
-        font-weight: bold;
-        padding: 14px 16px;
+        font-family: 'Lato', sans-serif;
+        padding: 20px 30px;
+        font-size: 15px;
+        color: white;
         text-decoration: none;
-        }
+        letter-spacing: 2px;
+}
+
+
+#left , #right{
+  font-size: 75px;
+  margin: 20px 0;
+}
+
+footer{
+  font-family: 'Lato', sans-serif;
+  letter-spacing: 2px;
+}
