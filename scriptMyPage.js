@@ -43,6 +43,10 @@ function addPoints(pointVal, indexNum){
 
   taskArray[indexNum].addPointValue(pointVal);
   alert(totalpoints);
-  document.getElementById("p0").innerHTML="Your Points: " + taskArray[indexNum].getPoints().toString();
-  
+
+  var myID = "p" + indexNum.toString();
+  alert(myID);
+
+  document.getElementById().innerHTML="Your Points: asdgferwrwae"; //+ taskArray[indexNum].getPoints().toString();
+
 }
