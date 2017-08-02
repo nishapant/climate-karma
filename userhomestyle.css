@@ -26,3 +26,8 @@ body{
       text-decoration: none;
       letter-spacing: 2px;
 }
+
+div{
+  width: 30%;
+  float: left;
+}
