@@ -1,13 +1,12 @@
 
 body{
-        background-color: #92ad94
-        font-family: 'Khula', sans-serif;
+        background-color: #92ad94;
+        font-family: 'Source Sans Pro', sans-serif;
 }
 
 /* The navigation bar */
   #navbar {
         overflow: hidden;
-        background-color: #748b75;
         position: fixed; /* Set the navbar to fixed position */
         top: 0; /* Position the navbar at the top of the page */
         width: 100%; /* Full width */
@@ -17,10 +16,11 @@ body{
   #navbar a {
         float: left;
         display: block;
-        color: #f5fbef;
+        color: black;
         text-align: center;
-        font-family: "Arial";
-        font-weight: bold;
-        padding: 14px 16px;
+        font-family: 'Lato', sans-serif;
+        padding: 20px 35px;
+        font-size: 15px;
+        color:#303030;
         text-decoration: none;
         }
