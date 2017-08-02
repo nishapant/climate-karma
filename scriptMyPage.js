@@ -11,7 +11,6 @@ class MyTask{
 
   addPointValue(myVal) {
     this.pointValue += myVal;
-    alert(this.pointValue);
   }
 
   getPoints(){
@@ -42,11 +41,55 @@ function addPoints(pointVal, indexNum){
   totalpoints += pointVal;
 
   taskArray[indexNum].addPointValue(pointVal);
-  alert(totalpoints);
 
-  var myID = "p" + indexNum.toString();
-  alert(myID);
-
-  document.getElementById().innerHTML="Your Points: asdgferwrwae"; //+ taskArray[indexNum].getPoints().toString();
-
+  switch(indexNum){
+    case 0:
+      document.getElementById('p0').innerHTML="Your Points: " + taskArray[indexNum].getPoints().toString();
+      break;
+    case 1:
+      document.getElementById('p1').innerHTML="Your Points: " + taskArray[indexNum].getPoints().toString();
+      break;
+    case 2:
+      document.getElementById('p2').innerHTML="Your Points: " + taskArray[indexNum].getPoints().toString();
+      break;
+    case 3:
+      document.getElementById('p3').innerHTML="Your Points: " + taskArray[indexNum].getPoints().toString();
+      break;
+    case 4:
+      document.getElementById('p4').innerHTML="Your Points: " + taskArray[indexNum].getPoints().toString();
+      break;
+    case 5:
+      document.getElementById('p5').innerHTML="Your Points: " + taskArray[indexNum].getPoints().toString();
+      break;
+    case 6:
+      document.getElementById('p6').innerHTML="Your Points: " + taskArray[indexNum].getPoints().toString();
+      break;
+    case 7:
+      document.getElementById('p7').innerHTML="Your Points: " + taskArray[indexNum].getPoints().toString();
+      break;
+    case 8:
+      document.getElementById('p8').innerHTML="Your Points: " + taskArray[indexNum].getPoints().toString();
+      break;
+    case 9:
+      document.getElementById('p9').innerHTML="Your Points: " + taskArray[indexNum].getPoints().toString();
+      break;
+    case 10:
+      document.getElementById('p10').innerHTML="Your Points: " + taskArray[indexNum].getPoints().toString();
+      break;
+    case 11:
+      document.getElementById('p11').innerHTML="Your Points: " + taskArray[indexNum].getPoints().toString();
+      break;
+    case 12:
+      document.getElementById('p12').innerHTML="Your Points: " + taskArray[indexNum].getPoints().toString();
+      break;
+    case 13:
+      document.getElementById('p13').innerHTML="Your Points: " + taskArray[indexNum].getPoints().toString();
+      break;
+    case 14:
+      document.getElementById('p14').innerHTML="Your Points: " + taskArray[indexNum].getPoints().toString();
+      break;
+    default:
+      break;
+  }
+  document.getElementById('stats').innerHTML = "Here are your recent stats: " + totalpoints.toString();
 }
