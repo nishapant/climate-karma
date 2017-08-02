@@ -1,11 +1,13 @@
 
 body{
-        background-color: #92ad94;
+        background-color: #e8f1f2;
+        color: #25283d;
         font-family: 'Source Sans Pro', sans-serif;
 }
 
 /* The navigation bar */
   #navbar {
+        background-color: #8ea8c3;
         overflow: hidden;
         position: fixed; /* Set the navbar to fixed position */
         top: 0; /* Position the navbar at the top of the page */
@@ -21,6 +23,6 @@ body{
         font-family: 'Lato', sans-serif;
         padding: 20px 35px;
         font-size: 15px;
-        color:#303030;
+        color:#e8f1f2;
         text-decoration: none;
         }
