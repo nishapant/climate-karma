@@ -10,9 +10,7 @@ body{
 #name{
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 100px;
-    width: 100;
-    margin-top: 21%;
-    margin-left: 31%;
+
 }
 
 /* The navigation bar */
@@ -46,6 +44,10 @@ body{
   margin: 20px 0;
 }
 
+p{
+  text-align: center;
+  margin-top: 20%;
+}
 footer{
   font-family: 'Lato', sans-serif;
   letter-spacing: 2px;
