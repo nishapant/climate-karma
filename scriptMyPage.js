@@ -9,7 +9,13 @@ class MyTask{
     return this.taskName;
   }
 
+  addPointValue(myVal) {
+    this.pointValue += myVal;
+    alert(this.pointValue);
+  }
+
 }
+
 taskArray.push(new MyTask("Bring a reusable bottle", 0));
 taskArray.push(new MyTask("No red meat for a day", 0));
 taskArray.push(new MyTask("Take a 5 minute shower", 0));
@@ -27,9 +33,11 @@ taskArray.push(new MyTask("Plant a tree", 0));
 taskArray.push(new MyTask("Vegan for a day", 0));
 
 
-var totalpoints = 0
-function addPoints(pointVal){
+var totalpoints = 0;
+
+function addPoints(pointVal, indexNum){
   totalpoints += pointVal;
+
+  taskArray[indexNum].addPointValue(pointVal);
   alert(totalpoints);
-  alert(taskArray[0].printName());
 }
