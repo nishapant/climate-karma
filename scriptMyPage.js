@@ -7,7 +7,8 @@ class myTask{
 
 }
 
-
-function addPoints(){
-  
+var totalpoints = 0
+function addPoints(pointVal){
+  totalpoints += pointVal;
+  alert(totalpoints);
 }
