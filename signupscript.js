@@ -1,5 +1,4 @@
 var peopleInfo = [];
-var users = [];
 
 
 class Person{
