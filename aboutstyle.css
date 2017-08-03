@@ -28,11 +28,27 @@ body{
         letter-spacing: 2px;
         }
 
-#bios{
-  width:65%;
-  margin: 50px auto;
-  line-height: 150%;
-  font-size: 20px;
+#bio1 {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.ourBios {
+  width: 23%;
+  height: auto;
+  margin-left: 20px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+#allbios {
+  display: flex;
+  display: -webkit-flex;
+  flex-grow: 0;
+  -ms-flex-grow: 0;
+  flex-wrap: wrap;
+  width: 95%;
+  margin-left: 3%;
 }
 
 #groupPicture{
