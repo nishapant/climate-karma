@@ -20,11 +20,10 @@ class Person{
 
 function collectData(){
   var user, psswrd, mail;
-  alert(users);
   user = document.getElementById("username").value;
   psswrd = document.getElementById("password").value;
   mail = document.getElementById("email").value;
   peopleInfo.push(new Person(user, psswrd, mail));
   alert(peopleInfo);
-
+  alert(peopleInfo[0].getUsername());
 }
