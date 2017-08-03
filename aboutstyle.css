@@ -29,16 +29,20 @@ body{
         }
 
 #bio1 {
-  margin-left: 100px;
-  margin-right: 100px;
+  width: 70%;
+  margin: 40px auto;
+  font-size: 18px;
+  line-height: 200%;
 }
 
 .ourBios {
-  width: 23%;
+  width: 22%;
   height: auto;
   margin-left: 20px;
+  margin-right: 20px;
   display: inline-block;
   vertical-align: top;
+  text-align: center;
 }
 
 #allbios {
@@ -48,7 +52,7 @@ body{
   -ms-flex-grow: 0;
   flex-wrap: wrap;
   width: 95%;
-  margin-left: 3%;
+  margin:0 auto;
 }
 
 #groupPicture{
@@ -64,6 +68,13 @@ h2,  h1{
 }
 
 img{
-  width: 30%;
+  width: 55%;
   margin: 0 auto;
+  border-radius: 50%;
+}
+
+.left{
+  text-align: left;
+  font-size: 18px;
+  line-height: 200%;
 }
