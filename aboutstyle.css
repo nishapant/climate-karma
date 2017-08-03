@@ -62,3 +62,8 @@ body{
 h2,  h1{
   text-align: center;
 }
+
+img{
+  width: 30%;
+  margin: 0 auto;
+}
