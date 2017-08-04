@@ -52,22 +52,20 @@ body{
   -ms-flex-grow: 0;
   flex-wrap: wrap;
   width: 95%;
-  margin:0 auto;
+  margin:20px auto;
 }
 
 #groupPicture{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 30px;
-  margin-bottom: 30px;
+  width: 40%;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 h2,  h1{
   text-align: center;
 }
 
-img{
+#headshot{
   width: 55%;
   margin: 0 auto;
   border-radius: 50%;
@@ -77,4 +75,12 @@ img{
   text-align: left;
   font-size: 18px;
   line-height: 200%;
+}
+
+#topInfo{
+  text-align: center;
+}
+
+h1{
+  font-size: 40px;
 }
